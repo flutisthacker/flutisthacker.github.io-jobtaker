@@ -8,10 +8,23 @@
 }
 
 body {
-  display: flex;
+  color: #161615;
+  background-color: #dfdfe2;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  background-color: #161615;
-  color: #dfdfe2
+  flex-direction: column; */
+  scroll-behavior: smooth;
+}
+
+.main,
+.header,
+.testamonials {
+  width: 100vw;
+  height: 100vh;
+}
+
+.footer {
+  width: 100vw;
+  height: 35vh;
 }
