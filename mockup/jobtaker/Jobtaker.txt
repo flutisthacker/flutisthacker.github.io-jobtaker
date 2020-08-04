@@ -24,3 +24,10 @@ css-bootstrap
 livechat zendesk chat
 google tag manager
 
+online kaam
+owl carousel
+ionicons
+jquery
+animate.css
+bootstrap
+google maps
