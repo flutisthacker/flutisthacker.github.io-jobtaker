@@ -10,3 +10,17 @@ Job taker.
  8. Talking to different companies to provide us the Skills or job requirement for the post.
  9. Providing different options in our website so thet we can know in which work they are good in.
 10. Boosting and advertising our page  so that we can collect as many CV's of people.
+
+merjob
+analytics
+statcounte
+widgets-addthis
+
+frameworkds
+django
+language python
+js-jquery
+css-bootstrap
+livechat zendesk chat
+google tag manager
+
