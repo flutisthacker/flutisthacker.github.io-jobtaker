@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+  var excel = new ActiveXObject("Excel.Application");
+  excel.visible = true;
+  var book = excel.Workbooks.Add;
+  book.Worksheets.Add;
+  book.Worksheets(1).Activate;
+  book.Worksheets(1).Cells(1, 1).value = "My First Spreadsheet";
+  book.Worksheets(1).SaveAs("O:\mockup\jobtaker\excel_file.XLS");
+</script>
+
+<script src="https://script.google.com/macros/s/AKfycbzRXCj2uLjccGZkgw8id5lNKRwcp0P-67TR9GW1c1139kKpqgs/exec"></script>
+
+</html>
