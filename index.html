@@ -11,7 +11,8 @@
 <body>
   <header class="header">
     <nav class="navbar navbar-light bg-light justify-content-between">
-      <a class="navbar-brand">GetJob</a>
+      <a class="navbar-brand text headingFour">GetJob<h6 class="text">abcd</h6>
+      </a>
       <ul class="nav">
         <li class="nav-item">
           <a class="nav-link active" href="#">Home</a>
@@ -33,36 +34,117 @@
         <div class="col-lg-6  mr-auto">
           <h1 class="text text-center d-flex flex-column"><span>Find the most</span><span>Startup Jobs</span>
           </h1>
-              <div class="row d-flex flex-row flex-center">
-                <div class="btn mr-4 btn-secondary">job title</div>
-                <div class="btn mr-4 btn-secondary">Location</div>
-                <div class="btn btn-primary">Find job</div>
-              </div>
+          <div class="row d-flex flex-row flex-center">
+            <div class="btn mr-4 btn-secondary">job title</div>
+            <div class="btn mr-4 btn-secondary">Location</div>
+            <div class="btn btn-primary">Find job</div>
+          </div>
         </div>
       </div>
     </div>
   </header>
   <div class="main ">
-    <div class="main-header text-center">Browse Top categories</div>
-    <div class="row container">
-      <div class=" col-lg-3 mr-4 mb-4 d-flex flex-column"><i class="fa fa-desktop"></i> PHP Programming</div>
-      <div class=" col-lg-3 mr-4 mb-4 ">Social Media</div>
-      <div class=" col-lg-3 mr-4 mb-4 ">Content Writing</div>
-    </div>
-    <div class="row container">
-      <div class=" col-lg-3 mr-4 mb-4 ">Digital marketing</div>
-      <div class=" col-lg-3 mr-4 mb-4 ">Finance management</div>
-      <div class=" col-lg-3 mr-4 mb-4 ">Graphics designer</div>
+    <h2 class="main-header text-center">Browse Top categories</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" col-lg-2 col-sm-1 mr-1 mb-4 d-flex flex-column"><i class="fa fa-desktop"></i> PHP Programming</div>
+        <div class=" col-lg-2 col-sm-1 mr-1 mb-4 ">Social Media</div>
+        <div class=" col-lg-2 col-sm-1 mr-1 mb-4 ">Content Writing</div>
+        <div class=" col-lg-2 col-sm-1 mr-1 mb-4 ">Digital marketing</div>
+      </div>
+      <div class="row">
+        <div class=" col-lg-3 mr-4 mb-4 ">Finance management</div>
+        <div class=" col-lg-3 mr-4 mb-4 ">Graphics designer</div>
+      </div>
     </div>
   </div>
-  <div class="testamonials ">
+  <div class="upload_jobs bg-primary">>
+    <div class="container">
+      <h2 class="text-center">Make a difference with your cv</h2>
+      <button class="btn btn-outline-warning text-light">Upload your CV</button>
+    </div>
+  </div>
+  <div class="recent_jobs">
+    <p class="text-center"> Recently added Jobs</p>
+    <h2 class="text-center">Recent Jobs</h2>
+    <div class="alert alert-secondary" role="alert">frontEnd developers <div class="badge badge-primary">Part time
+      </div>
+      <div class="btn btn-primary float-right">Apply job</div>
+      <div class="btn btn-outline-danger float-right"><i class="fa fa-heart"></i></div>
+    </div>
+    <div class="alert alert-secondary" role="alert">Graphic Designer <div class="badge badge-warning">Full time</div>
+      <div class="btn btn-primary float-right">Apply job</div>
+      <div class="btn btn-outline-danger float-right"><i class="fa fa-heart"></i></div>
+    </div>
+    <div class="alert alert-secondary" role="alert">FullStack developers <div class="badge badge-primary">Internship
+      </div>
+      <div class="btn btn-primary float-right">Apply job</div>
+      <div class="btn btn-outline-danger float-right"><i class="fa fa-heart"></i></div>
+    </div>
+    <nav class="nav text-center justify-center align-self-center" aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
+  <div class="our-blogs">
+    <h3 class="text-center ob-header">Our Blogs</h3>
+    <div class="container-fluid row mr-auto">
+
+      <div class="card col-lg-2 mr-2">
+        <img class="card-img-top" src="" alt="my images">
+        <div class="card-body">
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <div class="card col-lg-2 mr-2">
+        <img class=" card-img-top" src="" alt="my images">
+        <div class="card-body">
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <div class="card col-lg-2 mr-2">
+        <img class=" card-img-top" src="" alt="my images">
+        <div class="card-body">
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <div class="card col-lg-2">
+        <img class=" card-img-top" src="" alt="my images">
+        <div class="card-body">
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="testamonials jumbotron bg-primary text-center">
+    <h3 class="t-header text-center">Testamonials</h3>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="container">
             <div class="row jumbotron">
-              <div class="col-lg-6 col-md-6 com-sm-6 bg-dark-gray text-center">
+              <div class="col-lg-6 col-md-6 com-sm-6 bg-secondary text-center">
                 <div class="testamonial_img">
                   <i class="fa fa-user"></i>
                 </div>
@@ -78,11 +160,11 @@
         <div class="carousel-item">
           <div class="container">
             <div class="row jumbotron">
-              <div class="col-lg-6 col-md-6 com-sm-6 bg-dark-gray text-center">
+              <div class="col-lg-6 col-md-6 com-sm-6 bg-secondary text-center">
                 <div class="testamonial_img">
                   <i class="fa fa-user"></i>
                 </div>
-                <div class="testamonial_name">John Smith</div>
+                <div class="testamonial_name bg-secondary">John Smith</div>
               </div>
               <div class="col-lg-6 col-md-6 com-sm-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
                 blanditiis asperiores?
@@ -94,7 +176,7 @@
         <div class="carousel-item">
           <div class="container">
             <div class="row jumbotron">
-              <div class="col-lg-6 col-md-6 com-sm-6 bg-dark-gray text-center">
+              <div class="col-lg-6 col-md-6 com-sm-6 bg-secondary text-center">
                 <div class="testamonial_img">
                   <i class="fa fa-user"></i>
                 </div>
@@ -119,6 +201,17 @@
       </a>
     </div>
 
+  </div>
+  <div class="newsletter container">
+    <h3 class="text-center my-3 mx-3">Subscribe to our newsletter</h3>
+    <div class="jumbotron form-group row">
+      <div class="col-lg-9">
+        <input type="text" placeholder="Enter email address" id="" class="form-control">
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-warning form-control">Subscribe</button>
+      </div>
+    </div>
   </div>
   <footer class="footer bg-secondary">
     <h1 class="text text-center mt-lg-5">About Us</h1>

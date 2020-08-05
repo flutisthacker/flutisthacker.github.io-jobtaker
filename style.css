@@ -9,11 +9,7 @@
 
 body {
   color: #161615;
-  background-color: #dfdfe2;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; */
+  /* background-color: #dfdfe2; */
   scroll-behavior: smooth;
 }
 
@@ -24,7 +20,10 @@ body {
   height: 100vh;
 }
 
-.footer {
+
+.footer,
+.upload_jobs,
+.newsletter {
   width: 100vw;
   height: 35vh;
 }
