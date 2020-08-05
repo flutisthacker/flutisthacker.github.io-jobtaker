@@ -12,39 +12,113 @@
   <header class="header">
     <nav class="navbar navbar-light bg-light justify-content-between">
       <a class="navbar-brand">GetJob</a>
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">How it works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <button class="btn btn-primary mr-2 my-sm-0" type="submit">hire talents</button>
+        <button class="btn btn-danger mr-2 my-sm-0" type="submit">Want a JOb</button>
+        <button class="btn btn-success mr-2 my-sm-0" type="submit">login</button>
+      </ul>
+
     </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6  mr-auto">
+          <h1 class="text text-center d-flex flex-column"><span>Find the most</span><span>Startup Jobs</span>
+          </h1>
+              <div class="row d-flex flex-row flex-center">
+                <div class="btn mr-4 btn-secondary">job title</div>
+                <div class="btn mr-4 btn-secondary">Location</div>
+                <div class="btn btn-primary">Find job</div>
+              </div>
+        </div>
+      </div>
+    </div>
   </header>
   <div class="main ">
+    <div class="main-header text-center">Browse Top categories</div>
     <div class="row container">
-      <div class="badge col-lg-3 mr-4 mb-4 badge-success">PHP Programming</div>
-      <div class="badge col-lg-3 mr-4 mb-4 badge-danger">Social Media</div>
-      <div class="badge col-lg-3 mr-4 mb-4 badge-success">Content Writing</div>
+      <div class=" col-lg-3 mr-4 mb-4 d-flex flex-column"><i class="fa fa-desktop"></i> PHP Programming</div>
+      <div class=" col-lg-3 mr-4 mb-4 ">Social Media</div>
+      <div class=" col-lg-3 mr-4 mb-4 ">Content Writing</div>
     </div>
     <div class="row container">
-      <div class="badge col-lg-3 mr-4 mb-4 badge-success">Digital marketing</div>
-      <div class="badge col-lg-3 mr-4 mb-4 badge-success">Finance management</div>
-      <div class="badge col-lg-3 mr-4 mb-4 badge-success">Graphics designer</div>
+      <div class=" col-lg-3 mr-4 mb-4 ">Digital marketing</div>
+      <div class=" col-lg-3 mr-4 mb-4 ">Finance management</div>
+      <div class=" col-lg-3 mr-4 mb-4 ">Graphics designer</div>
     </div>
   </div>
   <div class="testamonials ">
-    <div class="container">
-      <div class="row jumbotron">
-        <div class="col-lg-6 col-md-6 com-sm-6 bg-dark-gray text-center">
-          <div class="testamonial_img">
-            <i class="fa fa-user"></i>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row jumbotron">
+              <div class="col-lg-6 col-md-6 com-sm-6 bg-dark-gray text-center">
+                <div class="testamonial_img">
+                  <i class="fa fa-user"></i>
+                </div>
+                <div class="testamonial_name">Joe Smith</div>
+              </div>
+              <div class="col-lg-6 col-md-6 com-sm-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
+                blanditiis asperiores?
+                Suscipit minus dolorem sint ut. Enim adipisci reiciendis fuga, blanditiis aperiam architecto repudiandae
+                nostrum molestias officiis porro minima excepturi.</div>
+            </div>
           </div>
-          <div class="testamonial_name">Joe Smith</div>
         </div>
-        <div class="col-lg-6 col-md-6 com-sm-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
-          blanditiis asperiores?
-          Suscipit minus dolorem sint ut. Enim adipisci reiciendis fuga, blanditiis aperiam architecto repudiandae
-          nostrum molestias officiis porro minima excepturi.</div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row jumbotron">
+              <div class="col-lg-6 col-md-6 com-sm-6 bg-dark-gray text-center">
+                <div class="testamonial_img">
+                  <i class="fa fa-user"></i>
+                </div>
+                <div class="testamonial_name">John Smith</div>
+              </div>
+              <div class="col-lg-6 col-md-6 com-sm-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
+                blanditiis asperiores?
+                Suscipit minus dolorem sint ut. Enim adipisci reiciendis fuga, blanditiis aperiam architecto repudiandae
+                nostrum molestias officiis porro minima excepturi.</div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row jumbotron">
+              <div class="col-lg-6 col-md-6 com-sm-6 bg-dark-gray text-center">
+                <div class="testamonial_img">
+                  <i class="fa fa-user"></i>
+                </div>
+                <div class="testamonial_name">Dave Smith</div>
+              </div>
+              <div class="col-lg-6 col-md-6 com-sm-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
+                blanditiis asperiores?
+                Suscipit minus dolorem sint ut. Enim adipisci reiciendis fuga, blanditiis aperiam architecto repudiandae
+                nostrum molestias officiis porro minima excepturi.</div>
+            </div>
+          </div>
+
+        </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
+
   </div>
   <footer class="footer bg-secondary">
     <h1 class="text text-center mt-lg-5">About Us</h1>
@@ -68,7 +142,12 @@
   </footer>
 </body>
 <script type="text/javascript" src="main.js">
-
 </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+  integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
 
 </html>
