@@ -13,4 +13,5 @@ git pull origin master
 git log
 git status
 git stash
+git fetch
 git remote -v
