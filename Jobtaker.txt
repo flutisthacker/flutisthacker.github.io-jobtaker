@@ -31,3 +31,5 @@ jquery
 animate.css
 bootstrap
 google maps
+
+Replacing login with Register giving to option "as a employee" and "as a employeer"
