@@ -11,7 +11,9 @@
 <body>
   <header class="header">
     <nav class="navbar navbar-light bg-light justify-content-between">
-      <a class="navbar-brand text headingFour">GetJob<h6 class="text">abcd</h6>
+      <a class="navbar-brand text headingFour">
+        <h2>JobFinder</h2>
+        <h6 class="text">Get your dream job</h6>
       </a>
       <ul class="nav">
         <li class="nav-item">
@@ -25,14 +27,16 @@
         </li>
         <button class="btn btn-primary mr-2 my-sm-0" type="submit">hire talents</button>
         <button class="btn btn-danger mr-2 my-sm-0" type="submit">Want a JOb</button>
-        <button class="btn btn-success mr-2 my-sm-0" type="submit">login</button>
+        <button class="btn btn-success mr-2 my-sm-0" data-toggle="modal" data-target="#register"
+          type="submit">login</button>
       </ul>
 
     </nav>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6  mr-auto">
-          <h1 class="text text-center d-flex flex-column"><span>Find the most</span><span>Startup Jobs</span>
+          <h1 class="text text-center d-flex font-weight-bold flex-column"><span>Find the most</span><span>Startup
+              Jobs</span>
           </h1>
           <div class="row d-flex flex-row flex-center">
             <div class="btn mr-4 btn-secondary">job title</div>
@@ -42,15 +46,42 @@
         </div>
       </div>
     </div>
+    <div class="container-fluid row bg-purple">
+      <h3 class="col-lg-3 col-md-2 col-sm-1 d-flex flex-row flex-center">
+
+        <i class="fa fa-users"></i>
+        <p class="text">
+          search jobs
+          <p>
+      </h3>
+      <h3 class="col-lg-3 col-md-2 col-sm-1">
+        <i class="fa fa-battery-half"></i>
+        <p class="text">
+          easy to manage jobs
+        </p>
+      </h3>
+      <h3 class="col-lg-3 col-md-2 col-sm-1">
+        <i class="fa fa-tasks"></i>
+        <p class="text">
+          top carrers
+        </p>
+      </h3>
+      <h3 class="col-lg-3 col-md-2 col-sm-1">
+        <i class="fa fa-search"></i>
+        <p class="text">
+          search expert candidates
+        </p>
+      </h3>
+    </div>
   </header>
   <div class="main ">
     <h2 class="main-header text-center">Browse Top categories</h2>
     <div class="container-fluid">
       <div class="row">
-        <div class=" col-lg-2 col-sm-1 mr-1 mb-4 d-flex flex-column"><i class="fa fa-desktop"></i> PHP Programming</div>
-        <div class=" col-lg-2 col-sm-1 mr-1 mb-4 ">Social Media</div>
-        <div class=" col-lg-2 col-sm-1 mr-1 mb-4 ">Content Writing</div>
-        <div class=" col-lg-2 col-sm-1 mr-1 mb-4 ">Digital marketing</div>
+        <div class=" col-lg-2 col-sm-1 pt-5 mb-4 d-flex flex-column"><i class="fa fa-desktop"></i> PHP Programming</div>
+        <div class=" col-lg-2 col-sm-1 pt-5 mb-4 ">Social Media</div>
+        <div class=" col-lg-2 col-sm-1 pt-5 mb-4 ">Content Writing</div>
+        <div class=" col-lg-2 col-sm-1 pt-5 mb-4 ">Digital marketing</div>
       </div>
       <div class="row">
         <div class=" col-lg-3 mr-4 mb-4 ">Finance management</div>
@@ -58,28 +89,54 @@
       </div>
     </div>
   </div>
-  <div class="upload_jobs bg-primary">>
+  <div class="upload_jobs bg-bluegradient">>
     <div class="container">
       <h2 class="text-center">Make a difference with your cv</h2>
       <button class="btn btn-outline-warning text-light">Upload your CV</button>
     </div>
   </div>
-  <div class="recent_jobs">
+  <div class="recent_jobs container">
     <p class="text-center"> Recently added Jobs</p>
     <h2 class="text-center">Recent Jobs</h2>
-    <div class="alert alert-secondary" role="alert">frontEnd developers <div class="badge badge-primary">Part time
+    <div class="alert alert-secondary row p-5" role="alert">
+      <div class="col-lg-8">
+        <h3>FrontEnd developers
+          <div class="badge badge-primary">Part time
+          </div>
+        </h3>
+
       </div>
-      <div class="btn btn-primary float-right">Apply job</div>
-      <div class="btn btn-outline-danger float-right"><i class="fa fa-heart"></i></div>
-    </div>
-    <div class="alert alert-secondary" role="alert">Graphic Designer <div class="badge badge-warning">Full time</div>
-      <div class="btn btn-primary float-right">Apply job</div>
-      <div class="btn btn-outline-danger float-right"><i class="fa fa-heart"></i></div>
-    </div>
-    <div class="alert alert-secondary" role="alert">FullStack developers <div class="badge badge-primary">Internship
+      <div class="col-lg-4">
+        <div class="btn btn-outline-danger border-circle float-right"><i class="fa fa-heart"></i></div>
+        <div class="btn btn-primary float-right mr-2">Apply job</div>
       </div>
-      <div class="btn btn-primary float-right">Apply job</div>
-      <div class="btn btn-outline-danger float-right"><i class="fa fa-heart"></i></div>
+    </div>
+    <div class="alert alert-secondary row p-5" role="alert">
+      <div class="col-lg-8">
+        <h3 class="text-left">Graphic Designer
+          <div class="badge badge-warning">Full time
+          </div>
+        </h3>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="btn btn-outline-danger border-circle float-right"><i class="fa fa-heart"></i></div>
+        <div class="btn btn-primary float-right mr-2">Apply job</div>
+
+      </div>
+    </div>
+    <div class="alert alert-secondary row p-5" role="alert">
+      <div class="col-lg-8">
+        <h3>FullStack developers
+          <div class="badge badge-primary"> Internship
+          </div>
+        </h3>
+
+      </div>
+      <div class="col-lg-4">
+        <div class="btn btn-outline-danger border-circle float-right"><i class="fa fa-heart"></i></div>
+        <div class="btn btn-primary float-right mr-2">Apply job</div>
+      </div>
     </div>
     <nav class="nav text-center justify-center align-self-center" aria-label="Page navigation example">
       <ul class="pagination">
@@ -102,32 +159,36 @@
     </nav>
   </div>
 
-  <div class="our-blogs">
+  <div class="our-blogs container">
     <h3 class="text-center ob-header">Our Blogs</h3>
     <div class="container-fluid row mr-auto">
 
-      <div class="card col-lg-2 mr-2">
-        <img class="card-img-top" src="" alt="my images">
+      <div class="card col-lg-3">
+        <img class="card-img-top" src="images/placeholder-image-368x246.png" alt="my images">
         <div class="card-body">
-          <p class="card-text"></p>
+          <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ad unde deserunt
+            maiores ab </p>
         </div>
       </div>
-      <div class="card col-lg-2 mr-2">
-        <img class=" card-img-top" src="" alt="my images">
+      <div class="card col-lg-3">
+        <img class=" card-img-top" src="images/placeholder-image-368x246.png" alt="my images">
         <div class="card-body">
-          <p class="card-text"></p>
+          <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ad unde deserunt
+            maiores ab </p>
         </div>
       </div>
-      <div class="card col-lg-2 mr-2">
-        <img class=" card-img-top" src="" alt="my images">
+      <div class="card col-lg-3">
+        <img class=" card-img-top" src="images/placeholder-image-368x246.png" alt="my images">
         <div class="card-body">
-          <p class="card-text"></p>
+          <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ad unde deserunt
+            maiores ab </p>
         </div>
       </div>
-      <div class="card col-lg-2">
-        <img class=" card-img-top" src="" alt="my images">
+      <div class="card col-lg-3">
+        <img class=" card-img-top" src="images/placeholder-image-368x246.png" alt="my images">
         <div class="card-body">
-          <p class="card-text"></p>
+          <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ad unde deserunt
+            maiores ab </p>
         </div>
       </div>
     </div>
@@ -229,15 +290,33 @@
         <p><a href="tel:+9774210000"></a><i class="pr-1 fa fa-phone">:+977-4210000</i></a></p>
         <p><i class="pr-1 fa fa-envelope">myeamil.gmail.com</i></p>
       </div>
-
-
     </div>
   </footer>
+
+  <div class="modal" id="register" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
-<script type="text/javascript" src="main.js">
-</script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script type="text/javascript" src="main.js">
+</script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
   integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
