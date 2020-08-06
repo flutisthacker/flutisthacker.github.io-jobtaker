@@ -8,6 +8,7 @@
 }
 
 body {
+  font-family: 'Times New Roman', Times, serif;
   color: #161615;
   /* background-color: #dfdfe2; */
   scroll-behavior: smooth;
@@ -20,10 +21,24 @@ body {
   height: 100vh;
 }
 
+.bg-purple {
+  background: rgb(45, 54, 211);
+}
+
+.bg-bluegradient {
+  background: linear-gradient(90deg,
+      rgb(1, 30, 254),
+      rgb(0, 247, 254))
+}
 
 .footer,
 .upload_jobs,
+.our_blogs,
 .newsletter {
   width: 100vw;
   height: 35vh;
+}
+
+.border-circle {
+  border-radius: 50%;
 }

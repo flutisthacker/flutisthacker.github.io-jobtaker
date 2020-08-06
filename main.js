@@ -1,1 +1,1 @@
-This is new comment
+$('#register').modal("show")

@@ -10,3 +10,8 @@ git commit -m "write what you have done"
 git push origin master
 git pull origin master
 
+git log
+git status
+git stash
+git fetch
+git remote -v
