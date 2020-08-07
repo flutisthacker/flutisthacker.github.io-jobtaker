@@ -42,3 +42,10 @@ body {
 .border-circle {
   border-radius: 50%;
 }
+
+#svgelem {
+  background: url("images/wfh_1.svg") center;
+  width: 600px;
+  height: 600px;
+  background-size: 600px 600px;
+}
